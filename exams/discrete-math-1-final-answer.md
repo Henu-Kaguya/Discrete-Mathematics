@@ -1,0 +1,260 @@
+# 河南大学计算机与信息工程学院期末考试
+
+## 《 离散数学 1 》试卷参考答案及解析
+
+**考试方式：** 闭卷
+**考试时间：** 120 分钟
+**卷面总分：** 100 分
+**适用专业：** 计算机科学与技术 / 软件工程 / 网络工程 / 人工智能
+
+---
+
+## 一、 判断题（本题共 10 小题，每小题 2 分，共 20 分）
+
+**1. $\{\neg, \to\}$ 不是极小全功能集。** **( × )**
+
+**2. 封闭的公式在任何解释下都变成命题。** **( √ )**
+
+**3. $\exists x(F(x) \wedge G(x)) \Leftrightarrow \exists x F(x) \wedge \exists x G(x)$** **( × )**
+
+**4. 设 $A、B、C$ 为任意集合，则 $(A \cap B) \cup (B - A) = B$。** **( √ )**
+
+**5. 在一个偏序关系中，一定存在惟一的一个最大元或最小元。** **( × )**
+
+---
+
+**6. 设 $V_1 = \langle S_1, * \rangle, V_2 = \langle S_2, *' \rangle$ 是两个具有二元运算的代数系统，$\varphi$ 是 $V_1$ 到 $V_2$ 的同态，若 $*$ 是可交换的，则 $*'$ 在 $V_2$ 中也是可交换的。** **( × )**
+
+**7. 循环群的子群一定是循环群。** **( √ )**
+
+**8. 一个有向图是强连通的充要条件是存在经过每个顶点的回路。** **( √ )**
+
+**9. 图 $G$ 的对偶图 $G^*$ 的对偶图 $G^{**}$ 一定与 $G$ 同构。** **( × )**
+
+**10. 设 $n$ 阶无向连通 $G$ 有 $m$ 条边，则 $m \ge n-1$。** **( √ )**
+
+---
+
+## 二、 单项选择题（本题共 10 小题，每小题 2 分，共 20 分）
+
+**1. 令 $p$：今天下雪了，$q$：路滑，则命题“虽然今天下雪了，但是路不滑”可符号化为______。** **[ A ]**
+
+* A. $p \wedge \neg q$
+* B. $p \vee \neg q$
+* C. $p \wedge q$
+* D. $p \to \neg q$
+
+**2. 一个命题公式或一阶逻辑公式的______是不惟一的。** **[ C ]**
+
+* A. 主析取范式
+* B. 主合取范式
+* C. 前束范式
+* D. 对偶式
+
+**3. 设 $X, Y, Z$ 是集合，下列结论不正确的是______。** **[ B ]**
+
+* A. 若 $X \subseteq Y$，则 $X \cap Y = X$
+* B. $(X-Y)-Z = X-(Y \cap Z)$
+* C. $X \oplus X = \emptyset$
+* D. $X-Y = X \cap (\sim Y)$
+
+**4. $X = \{a, b, c, d, e\}$，$Y = \{1, 2, 3, 4\}$，$f$ 从 $X$ 到 $Y$ 的映射，其中 $f(a)=2, f(b)=4, f(c)=2, f(d)=3, f(e)=2$，则 $f$ 是______。** **[ D ]**
+
+* A. 双射
+* B. 满射
+* C. 单射
+* D. 不是单射也不是满射
+
+**5. 设 $V = \langle \mathbf{Z}, + \rangle$，其中“+”是普通加法。$\forall x \in \mathbf{Z}$，令 $\varphi_1(x)=x$，$\varphi_2(x)=-x$，$\varphi_3(x)=x+5$，$\varphi_4(x)=2x$，其中有______个自同构。** **[ B ]**
+
+* A. 1
+* B. 2
+* C. 3
+* D. 4
+
+---
+
+**6. 设 $\langle L, \wedge, \vee \rangle$ 是一个格，则它不满足______。** **[ C ]**
+
+* A. 交换律
+* B. 结合律
+* C. 消去律
+* D. 吸收律
+
+**7. 3 个顶点 2 条边的非同构的有向简单图共有______个。** **[ D ]**
+
+* A. 1
+* B. 2
+* C. 3
+* D. 4
+
+**8. 对于任意的 $p (p \ge 2)$ 个连通分支的平面图 $G$，有 $n-m+r = $______。** **[ A ]**
+
+* A. $p + 1$
+* B. $p - 1$
+* C. $2p + 1$
+* D. $2p - 1$
+
+**9. 关于无向树的描述，不正确的是______。** **[ B ]**
+
+* A. 无向树是连通图、没有回路，每个边都是桥
+* B. 无向树是连通图、没有回路，每个顶点都是割点
+* C. 无向树是连通图、没有回路，每条边都是割边
+* D. 无向树是连通图、边数比顶点数少 1，任意两个顶点的路径惟一
+
+**10. 一颗二叉树后序遍历的结果是 bdeca，中序遍历的结果是 badce，则根结点的右子树有______个结点。** **[ C ]**
+
+* A. 1
+* B. 2
+* C. 3
+* D. 4
+
+---
+
+## 三、 填空题（本题共 5 小题，每小题 3 分，共 15 分）
+
+**1. $((p \vee q) \wedge \neg q) \to p$ 从公式的类型看，它属于____________式。** **永真**
+
+**2. $A = \{a, b\}$，则 $A$ 的幂集 $P(A)$ 到自身的双射有____________个。** **$24$**
+
+**3. 6 阶循环群有____________个子群。** **$4$**
+
+**4. 已知 $n$ 阶无向图 $G$ 中有 $m$ 条边，各顶点的度数均为 3。又已知 $2n-3=m$，则 $m =$____________。** **$9$**
+
+**5. 最优 2 元树有 $n$ 片树叶，则它有____________个分支点。** **$n - 1$**
+
+---
+
+## 四、 计算题（本题共 4 小题，共 25 分）
+
+**1. (6 分) 用等值演算法求公式 $((p \vee q) \to r) \to p$ 的主析取范式。**
+
+> **【参考答案】**
+> 等值演算求解过程如下：
+> 
+> $$
+> \begin{aligned}
+> & ((p \vee q) \to r) \to p \\
+> \Leftrightarrow & \neg (\neg (p \vee q) \vee r) \vee p \\
+> \Leftrightarrow & ((p \vee q) \wedge \neg r) \vee p \\
+> \Leftrightarrow & (p \wedge \neg r) \vee (q \wedge \neg r) \vee p \\
+> \Leftrightarrow & p \vee (q \wedge \neg r) \\
+> \Leftrightarrow & (p \wedge (q \vee \neg q) \wedge (r \vee \neg r)) \vee ((\neg p \vee p) \wedge q \wedge \neg r) \\
+> \Leftrightarrow & (p \wedge q \wedge \neg r) \vee (p \wedge \neg q \wedge \neg r) \vee (\neg p \wedge q \wedge \neg r) \vee (p \wedge q \wedge r) \vee (p \wedge \neg q \wedge r)
+> \end{aligned}
+> $$
+> 
+> 对应小项为 $m_2, m_4, m_5, m_6, m_7$。
+> 故公式的主析取范式为：$m_2 \vee m_4 \vee m_5 \vee m_6 \vee m_7$。
+
+**2. (6 分) $R_1 = \{\langle 1,2 \rangle, \langle 1,3 \rangle, \langle 2,3 \rangle\}$，$R_2 = \{\langle 2,2 \rangle, \langle 2,3 \rangle, \langle 3,4 \rangle\}$，求：**
+*(1)* $R_1 - R_2$；
+*(2)* $R_1^{-1}$；
+*(3)* 求 $R_2 \circ R_1$。
+
+> **【参考答案】**
+> *(1)* $R_1 - R_2 = \{\langle 1,2 \rangle, \langle 1,3 \rangle\}$
+> *(2)* $R_1^{-1} = \{\langle 2,1 \rangle, \langle 3,1 \rangle, \langle 3,2 \rangle\}$
+> *(3)* $R_2 \circ R_1 = \{\langle 1,2 \rangle, \langle 1,3 \rangle, \langle 1,4 \rangle, \langle 2,4 \rangle\}$
+
+**3. (7 分) 设 $\langle A, R \rangle$ 为一个偏序集，其中 $A = \{1, 2, 3, 4, 6, 9, 12, 24\}$，$R$ 是 $A$ 上的整除关系。**
+*(1)* 画出 $R$ 的哈斯图；
+*(2)* 求 $A$ 的极大元和极小元；
+*(3)* 求 $B = \{4, 6\}$ 的上确界和下确界。
+
+> **【参考答案】**
+> *(1)* $R$ 的哈斯图如下所示：
+> 
+> <div align="center">
+>   <img src="./assets/discrete-math-1-q3-hasse.png" width="220" alt="哈斯图"/>
+> </div>
+> 
+> *(2)* 
+> - 极大元为：**$9, 24$**
+> - 极小元为：**$1$**
+> 
+> *(3)* 
+> - 上确界为：**$12$**
+> - 下确界为：**$2$**
+
+**4. (6 分) 画一棵带权为 $2, 2, 2, 3, 3, 4, 5, 8$ 的最优二叉树 $T$，并计算它的权 $W(T)$。**
+
+> **【参考答案】**
+> 构造的最优二叉树（Huffman 树）如下图所示：
+> 
+> <div align="center">
+>   <img src="./assets/discrete-math-1-q4-huffman.png" width="300" alt="最优二叉树"/>
+> </div>
+> 
+> 计算树的带权路径长度 $W(T)$：
+> 各叶子结点的路径长度分别为：
+> - 权为 2 的三个叶子结点：深度分别为 4, 4, 4
+> - 权为 3 的两个叶子结点：深度分别为 4, 4
+> - 权为 4 的叶子结点：深度为 3
+> - 权为 5 的叶子结点：深度为 3
+> - 权为 8 的叶子结点：深度为 2
+> 
+> 故：
+> 
+> $$
+> \begin{aligned}
+> W(T) &= 2 \times 4 + 2 \times 4 + 2 \times 4 + 3 \times 4 + 3 \times 4 + 4 \times 3 + 5 \times 3 + 8 \times 2 \\
+> &= 8 + 8 + 8 + 12 + 12 + 12 + 15 + 16 \\
+> &= 83
+> \end{aligned}
+> $$
+> 
+> 答：最优二叉树的权 $W(T) = 83$。
+
+---
+
+## 五、 综合题（本题共 2 小题，每小题 10 分，共 20 分）
+
+**1. (10 分) 给出下列证明的推理过程：**
+**前提：$p \to (q \to s)$，$q$，$p \vee \neg r$**
+**结论：$r \to s$**
+
+> **【参考答案】**
+> **证明**：
+> 采用附加前提证明法，证明过程如下：
+> 
+> - ① $r$ —— 附加前提引入
+> - ② $p \vee \neg r$ —— 前提引入
+> - ③ $p$ —— ①, ②, 析取三段论
+> - ④ $p \to (q \to s)$ —— 前提引入
+> - ⑤ $q \to s$ —— ③, ④, 假言推理
+> - ⑥ $q$ —— 前提引入
+> - ⑦ $s$ —— ⑤, ⑥, 假言推理
+> 
+> 证毕。
+
+**2. (10 分) 已知 $\langle M_n(\mathbf{Z}), + \rangle$（即整数集上 2 阶方阵构成的集合关于矩阵的加法）构成群，$H = \left\{ \begin{pmatrix} a & 0 \\ 0 & a \end{pmatrix} \;\middle|\; a \in \mathbf{Z} \right\}$。**
+*(1)* $\langle M_n(\mathbf{Z}), + \rangle$ 的单位元是什么？$\begin{pmatrix} 1 & -2 \\ 3 & 4 \end{pmatrix}$ 的逆元是什么？
+*(2)* 证明：$H$ 是 $\langle M_n(\mathbf{Z}), + \rangle$ 的子群。
+
+> **【参考答案】**
+> *(1)* 
+> - $\langle M_n(\mathbf{Z}), + \rangle$ 的单位元是零矩阵 **$\begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}$**；
+> - $\begin{pmatrix} 1 & -2 \\ 3 & 4 \end{pmatrix}$ 的加法逆元为 **$\begin{pmatrix} -1 & 2 \\ -3 & -4 \end{pmatrix}$**。
+> 
+> *(2)* 
+> **证明**：
+> 1. 因为 $\begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix} \in H$，所以 $H \neq \emptyset$。
+> 2. $\forall A, B \in H$，设 $A = \begin{pmatrix} a & 0 \\ 0 & a \end{pmatrix}$，$B = \begin{pmatrix} b & 0 \\ 0 & b \end{pmatrix}$，其中 $a, b \in \mathbf{Z}$。
+>    则：
+>    
+>    $$
+>    A + B = \begin{pmatrix} a & 0 \\ 0 & a \end{pmatrix} + \begin{pmatrix} b & 0 \\ 0 & b \end{pmatrix} = \begin{pmatrix} a+b & 0 \\ 0 & a+b \end{pmatrix}
+>    $$
+>    
+>    因为 $a, b \in \mathbf{Z} \implies a+b \in \mathbf{Z}$，所以 $A+B \in H$（封闭性成立）。
+> 3. $\forall A \in H$，设 $A = \begin{pmatrix} a & 0 \\ 0 & a \end{pmatrix}$，其中 $a \in \mathbf{Z}$。
+>    其加法逆元为：
+>    
+>    $$
+>    -A = \begin{pmatrix} -a & 0 \\ 0 & -a \end{pmatrix}
+>    $$
+>    
+>    因为 $a \in \mathbf{Z} \implies -a \in \mathbf{Z}$，所以 $-A \in H$（逆元存在性成立）。
+> 
+> 综上所述，$H$ 是 $\langle M_n(\mathbf{Z}), + \rangle$ 的子群。
